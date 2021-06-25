@@ -1,0 +1,64 @@
+body{
+    background: url(/b4.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.mainContainer{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 50rem;
+    height: 25rem;
+}
+#main{
+    display:flex;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.heading{
+    display: block;
+    margin: auto;
+    width: 33%;
+}
+#project{
+    margin-top: 45px;
+    padding: 12px;
+}
+ol li{
+    margin-bottom: 12px;
+}
+ol li:hover{
+    cursor: pointer;
+    color:purple;
+    
+}
+#btnAddProject{
+    position: absolute;
+    top: 10rem;
+    right: 24rem;
+}
+#projectDialogue{
+    display: none;
+    width: 230px;
+}
+#btnAddTask{
+    position: absolute;
+    bottom: 16rem;
+    right: 24rem;
+}
+#taskDialogue{
+    display: none;
+    width: 230px;
+}
+.hov{
+    border-radius: 10px;
+}
+.photo{
+    border-radius: 10px;
+}
+.hov:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scale(1.3);
+}
